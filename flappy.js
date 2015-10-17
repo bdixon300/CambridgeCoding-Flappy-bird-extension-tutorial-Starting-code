@@ -30,10 +30,6 @@ function preload() {
     game.load.audio("score", "assets/point.ogg");
     // make image file available to game and associate with alias pipe
     game.load.image("pipe","assets/pipe.png");
-    game.load.image("pipeEnd","assets/pipe-end.png");
-    // make the bonus images available
-    game.load.image("balloons","assets/balloons.png");
-    game.load.image("weight","assets/weight.png");
     //load a bullet image
     game.load.image("bullet", "assets/bullet.png");
 }
